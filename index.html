@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gianfranco Tarulli – English 1 Portfolio</title>
+  <meta name="description" content="English 1 portfolio – UTN FRBB" />
+  <style>
+    :root {
+      --bg:#f7f8fb; --card:#ffffff; --ink:#222; --muted:#555; --acc:#0bb36c;
+      --shadow: 0 10px 25px rgba(0,0,0,.08);
+    }
+    * {box-sizing:border-box;scroll-behavior:smooth;}
+    html,body {margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:'Segoe UI',Roboto,Inter,Helvetica,Arial,sans-serif;line-height:1.6;scroll-padding-top:100px;}
+    a {color:var(--acc);text-decoration:none;transition:color 0.3s ease;}
+    a:hover {color:#078a55;text-decoration:underline;}
+    .wrap {max-width:950px;margin:0 auto;padding:24px}
+    header {position:sticky;top:0;background:white;border-bottom:1px solid #e5e8ef;box-shadow:var(--shadow);z-index:100;}
+    .nav {display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
+    .brand {display:flex;align-items:center;gap:12px}
+    .avatar {width:44px;height:44px;border-radius:50%;background:#ccf3df;color:#03643c;font-weight:700;display:grid;place-items:center}
+    .links a {margin-left:14px;font-weight:600;color:#03643c;position:relative;transition:color 0.3s ease;}
+    .links a::after {
+      content:'';
+      position:absolute;
+      bottom:-4px;
+      left:0;
+      width:0;
+      height:2px;
+      background-color:var(--acc);
+      transition:width 0.3s ease;
+    }
+    .links a:hover::after {width:100%;}
+
+    h1,h2,h3 {margin-top:0}
+    h1 {font-size:34px;margin-bottom:6px}
+    h2 {font-size:22px;margin-bottom:10px;color:var(--acc)}
+    h3 {font-size:17px;margin-bottom:6px;color:var(--muted)}
+
+    .hero {padding:80px 0 40px}
+    .subtitle {color:var(--muted);margin-bottom:24px}
+
+    .card {background:var(--card);border-radius:16px;box-shadow:var(--shadow);padding:22px;margin-bottom:60px;transition:transform 0.3s ease, box-shadow 0.3s ease;scroll-margin-top:120px;}
+    .card:hover {transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,0.12);}
+
+    ul {margin:8px 0 0 20px}
+    .tag {display:inline-block;border:1px solid #bde7cc;background:#e9f9f0;border-radius:999px;padding:5px 10px;margin:4px;font-size:13px;color:#03643c}
+
+    footer {text-align:center;margin:40px 0 20px;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="avatar">GT</div>
+        <div>
+          <div style="font-weight:700">Gianfranco Tarulli</div>
+          <div style="font-size:13px;color:var(--muted)">English 1 – UTN FRBB</div>
+        </div>
+      </div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Hello! I'm Gianfranco </h1>
+      <p class="subtitle">I'm a Technical Building Designer (<strong>MMO</strong>) and current student of the <strong>University Technician in Programming (TUP)</strong> at <strong>UTN FRBB</strong>.</p>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>I'm passionate about both <strong>technology</strong> and <strong>design</strong>. My interests include web development, game creation, and app design. From my background as an MMO, I also enjoy drawing blueprints, 3D modeling, and rendering. Besides that, I use <strong>Blender</strong> to create models, animations, and VFX. My goal is to keep improving in these three areas, finish my TUP degree, and continue specializing through courses.</p>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>UTN FRBB</strong> – University Technician in Programming (TUP). <em>2025 – Present</em></li>
+        <li><strong>EEST N°4 “Antártida”</strong> – Technical Building Designer (MMO). <em>2018 – 2024</em></li>
+      </ul>
+      <h3>Complementary Courses</h3>
+      <ul>
+        <li>Web Page Design Course (April 2023 – June 2023)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <h3>Programming</h3>
+      <div>
+        <span class="tag">Python</span>
+        <span class="tag">C#</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+      </div>
+      <h3>Design & CAD</h3>
+      <div>
+        <span class="tag">ArchiCAD (expert)</span>
+        <span class="tag">AutoCAD (advanced)</span>
+        <span class="tag">SketchUp</span>
+        <span class="tag">Twinmotion</span>
+        <span class="tag">Lumion</span>
+        <span class="tag">Blender</span>
+      </div>
+      <h3>Soft Skills</h3>
+      <div>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Adaptability</span>
+        <span class="tag">Responsibility</span>
+        <span class="tag">Motivation</span>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <article>
+        <h3>Final Projects (EEST N°4)</h3>
+        <p>I developed two final projects: a <strong>coworking building with a rest room</strong> and a <strong>residential building with a commercial ground floor</strong>.</p>
+      </article>
+      <article>
+        <h3>Freelance Work</h3>
+        <p>I worked on projects for relatives and clients, creating general, structural, and installation plans, as well as 3D renders.</p>
+      </article>
+      <article>
+        <h3>Website Project</h3>
+        <p>I designed an online store using <strong>TiendaNube</strong> for a beauty supply business (nails and eyelashes).</p>
+      </article>
+      <article>
+        <h3>2D Game (Unity)</h3>
+        <p>As a hobby, I’m developing a <strong>2D video game</strong> in Unity to explore game design, coding, and creativity.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:gianfrancotarulli06@gmail.com">gianfrancotarulli06@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/gianfranco-tarulli-783210322" target="_blank">linkedin.com/in/gianfranco-tarulli</a></p>
+      <p>Location: Bahía Blanca, Buenos Aires, Argentina</p>
+    </section>
+
+    <footer>
+      <p>© <span id="y"></span> Gianfranco Tarulli • One-page portfolio</p>
+      <p>Thank you for visiting!</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+ </script>
+</body>
+</html>
